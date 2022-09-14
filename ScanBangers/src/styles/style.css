@@ -1,0 +1,161 @@
+
+
+body {
+	background-color: #020814;
+}
+
+.navbar {
+	z-index: 999!important;
+}
+
+.red {
+	color: rgb(187, 64, 64);
+}
+
+.yellow {
+	color: rgb(223, 223, 31);
+}
+
+.logo-navbar {
+	width: 150px;
+}
+
+
+.carouselContainer {
+	height: 100vh;
+	margin-top: -123px;
+}
+
+
+.navbarOpacity {
+	background: rgba(255, 255, 255, 0)!important;
+}
+
+.statusContainer {
+	margin-left: 50px;
+	margin-top: 15px;
+}
+
+.status {
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.statusValue {
+	font-weight: 500;
+}
+
+
+.backgroundManga {
+	box-shadow: inset 0px -550px 300px #0A0B0F;
+	filter: drop-shadow(0px 250px 0px #0A0B0F) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	height: 100vh;
+	background: no-repeat  fixed;
+	background-size: 1920px;
+	background-position: top;
+}
+
+.mangaCoverContainer {
+	height: 100vh;
+}
+
+.mangaCover {
+	height: 500px;
+	margin-top: 34vh;
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.8));
+	border-radius: 40px;
+}
+
+.mangaTitle {
+	color: rgb(237, 237, 237);
+	margin-top: 38vh;
+	margin-left: 50px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.mangaGenre {
+	display: inline-block;
+	color: white;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	background: #0F1F3E;
+	border: 1px solid #FFFFFF;
+	border-radius: 24px;
+}
+
+.genreContainer {
+	overflow: hidden;
+	width: 80%;
+	margin-left: 50px;
+	margin-top: 15px;
+}
+
+
+.descManga {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.syno {
+	color: rgb(198, 198, 198);
+	width: 80%;
+	font-weight: 500;
+	max-height: 70px;
+	word-wrap: break-word;
+	overflow: hidden;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.buttonContainer {
+	margin-left: 35px;
+}
+
+
+
+.mangaButton {
+	background: rgba(231, 56, 101, 0.95);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 31px;
+
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	margin-left: 15px;
+	transition: .1s ease-in-out;
+}
+
+.mangaButton:hover {
+	border: 2px solid white;
+}
+
+
+
+
+.loader > div > svg {
+	margin: auto;
+}
+
+.loader > div {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	height: 100vh;
+	margin-top: -123px;
+}
+
+.ratingscolor {
+	color: rgb(253, 236, 0);
+
+}
